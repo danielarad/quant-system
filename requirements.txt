@@ -1,0 +1,33 @@
+# quant-system/requirements.txt
+# --------------------------------
+# Runtime dependencies.
+#
+# All other imports (json, os, abc, datetime, sys) are Python stdlib.
+# Only one external package is required to run the full system.
+#
+# To install:
+#   pip install -r requirements.txt
+
+requests>=2.31.0
+
+# ---------------------------------------------------------------------------
+# FUTURE DEPENDENCIES (commented out — uncomment when extending)
+# ---------------------------------------------------------------------------
+
+# For PostgreSQL storage upgrade:
+# psycopg2-binary>=2.9
+# sqlalchemy>=2.0
+
+# For LLM integration (OpenAI or Anthropic):
+# openai>=1.0
+# anthropic>=0.20
+
+# For multi-asset data (stocks, FX, futures):
+# yfinance>=0.2
+
+# For async agent execution:
+# aiohttp>=3.9
+
+# For API layer (FastAPI):
+# fastapi>=0.110
+# uvicorn>=0.29
